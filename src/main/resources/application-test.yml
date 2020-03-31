@@ -8,5 +8,5 @@ spring:
     username:
     password:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://bbx-testdb-out.mysql.rds.aliyuncs.com:3306/bbx_test?useSSL=false&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2B8
+    url:
     type: com.alibaba.druid.pool.DruidDataSource

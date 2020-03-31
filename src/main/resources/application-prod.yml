@@ -5,5 +5,5 @@ spring:
     username:
     password:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://bbx-mysqldb.mysql.rds.aliyuncs.com:3306/bbx?characterEncoding=utf-8&autoReconnect=true
+    url:
     type: com.alibaba.druid.pool.DruidDataSource

@@ -2,8 +2,7 @@ logging:
   config: classpath:logback.xml
 mybatis-plus:
   mapper-locations: classpath:/mybatis/mapper/*Mapper.xml
-#  config-location: classpath:/mybatis/mybatis-config.xml
-  typeAliasesPackage: com.bbx.merchantplatform.model
+  typeAliasesPackage: com.easy.yunerp.model
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
   global-config:
