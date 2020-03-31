@@ -1,0 +1,25 @@
+logging:
+  config: classpath:logback.xml
+mybatis-plus:
+  mapper-locations: classpath:/mybatis/mapper/*Mapper.xml
+#  config-location: classpath:/mybatis/mybatis-config.xml
+  typeAliasesPackage: com.bbx.merchantplatform.model
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    # 关闭mybatis plus的标识
+    banner: false
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+spring:
+  application:
+    name: merchant-platform
+  jmx:
+    default-domain: base
+  profiles:
+    active: '@profileActive@'
+  aop:
+    auto: true

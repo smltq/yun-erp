@@ -1,0 +1,9 @@
+spring:
+  jmx:
+    default-domain: prod
+  datasource:
+    username:
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://bbx-mysqldb.mysql.rds.aliyuncs.com:3306/bbx?characterEncoding=utf-8&autoReconnect=true
+    type: com.alibaba.druid.pool.DruidDataSource
