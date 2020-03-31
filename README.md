@@ -12,22 +12,26 @@
 4. 引入了swagger，项目启动后访问 http://host:port/swagger-ui.html 可访问接口文档
 
 ### 项目代码目录规划
-     
-    com.bbx.merchantplatform
-      +- common         公共目录
-        +- aop          aop目录
-        +- base         基础目录
-        +- config       配置目录
-        +- constant     常量目录
-        +- enums        枚举目录
-        +- utils        工具目录
-      +- mapper         dao目录
-      +- model          实体目录
-      +- service        服务目录
-        +- impl
-      +- web            web目录
-        +- vo           前端交互实体目录
-      YunErpApplication.java
+
+    +- src
+        +- java     
+            +- com.easy.yunerp
+              +- common         公共目录
+                +- aop          aop目录
+                +- base         基础目录
+                +- config       配置目录
+                +- constant     常量目录
+                +- enums        枚举目录
+                +- utils        工具目录
+              +- mapper         dao目录
+              +- model          实体目录
+              +- service        服务目录
+                +- impl
+              +- web            web目录
+                +- vo           前端交互实体目录
+              YunErpApplication.java
+        +- resources   配置文件
+        +- webapp      前端项目
       
   - 1、YunErpApplication.java  框架配置、项目入口
   - 2、model 目录主要用于实体
