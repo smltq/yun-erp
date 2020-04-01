@@ -1,9 +1,0 @@
-spring:
-  jmx:
-    default-domain: prod
-  datasource:
-    username:
-    password:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url:
-    type: com.alibaba.druid.pool.DruidDataSource
