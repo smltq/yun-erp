@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@MapperScan("com.easy.yunerp.mapper")
+@MapperScan("com.easy.yunerp.sys.mapper")
 public class MybatisPlusConfig {
 
     /**
