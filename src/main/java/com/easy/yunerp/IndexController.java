@@ -1,4 +1,4 @@
-package com.easy.yunerp.web;
+package com.easy.yunerp;
 
 import com.easy.yunerp.common.base.AjaxResult;
 import com.easy.yunerp.common.base.BaseController;
